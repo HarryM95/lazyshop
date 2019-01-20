@@ -1,0 +1,140 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: "Helvetica";
+	/*font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+	color: #262626;
+	font-size: 0.9em;
+	letter-spacing: 0.5px;
+    top: 0;
+    position: relative;
+	margin:0; 
+	padding-bottom: 50px;
+	}
+	
+	
+#scroller {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background: #CCC;
+    height: 100px;
+}
+
+
+
+#left,
+#right, #middle {
+    display: table;
+  	width: 100%;
+  	padding-top: 10px;
+}
+
+#middle{
+	position: absolute;
+	left: 35%;
+	width: 50%;
+}
+
+#left {
+  	position: absolute;
+  	left: 0px;
+  	width: 50%;
+  	padding-left: 40px;
+  	border:1px;
+}
+
+#right {
+    position: absolute;
+  	right: 0px;
+  	width: 50%;
+
+}
+
+.searchbox {
+	margin: auto;
+	/*padding-top: 10px; */
+	/*padding-left: 50px; */
+	width: 60%;
+	text-align: left;
+}
+
+.results {
+	margin: auto;
+	width: 50%;
+	text-align: left;
+}
+
+
+
+.infoende {
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	font-size: 1em;
+}
+
+
+/*Tabellenklassen*/
+
+
+table.info, table.infoende, table.infosuccess, table.infoerror  {
+	width:100%;
+	border-top: 1px solid #ddd;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-botton: 10px;	
+}
+
+table.infoende {
+	border-top: 2px solid #ddd;
+}
+
+
+table.infosuccess {
+	background-color: #d4f9d5;
+}
+
+table.infoerror {
+	background-color: #FFD1D1;
+}
+
+
+
+table.infoende td.preis{	
+	border-top: 1px solid #8f969e;
+}
+table.infoende td, table.infosuccess td, table.infoerror td{	
+	padding-right:5px;
+	padding-left:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table.ticket, table.ticketfg {
+	border-top: 1px solid #ddd;	
+	width:100%;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+table.ticket tr, table.ticketfg tr {
+	vertical-align: midle;
+	overflow: hidden;
+    height: 25px;
+}
+table.ticket td, table.ticketfg fd {
+	padding-right:5px;
+	padding-left:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+table.ticketfg {
+	/*table-layout:fixed;*/
+	overflow:hidden;
+	
+}
+
+
